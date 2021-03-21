@@ -14,7 +14,7 @@
 >Confidence is calculated for each correct answer (marks associated with difficulty level, refer constants.py)
 
 ## Scaling
->Can be made multiligual by just adding corresponding msg.yml
+>Can be made multiligual by just adding corresponding msg.yml  
 >Can easily be extended to 20, 30 ...any number multiplication tables by just altering constants.py  
 >Difficulty level can easily be modified by just altering constants.py  
 >Any two operand mathematical operation can easily be added by adding a class inheriting Question class (same as MultiplierQuestion, refer models.py)
