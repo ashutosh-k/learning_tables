@@ -1,0 +1,10 @@
+en:
+  greeting: Hello Welcome to Math Practice Program
+  name_input: "\nWhat's your name?. - "
+  question: "\nWhat is the answer of %{operand1} * %{operand2}?"
+  answer_input: "Enter Answer - "
+  correct_answer: "\nCorrect Answer"
+  incorrect_answer: "\nOops That's wrong."
+  play_more: "\nWhat to play more?. Y/N - "
+  confidence: "\nYou are %{confidence}% confident on 1-12 multiplication tables."
+  goodbye: "\nGood Bye %{name}"
