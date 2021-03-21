@@ -6,20 +6,20 @@
 [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#installing-virtualenv)
 
 ## Assumption
->Name only Alpha accepted
->Answer only numeric accepted
->For exit only 'N' is accepted (all other assumed 'Y')
->Five difficulty level defined (easy1, easy2, medium1, medium2, hard) refer constants.py
->Learning is started with *easy1* level. After correct answer level is increased and for incorrect level is decreased within bounds.
+>Name only Alpha accepted  
+>Answer only numeric accepted  
+>For exit only 'N' is accepted (all other assumed 'Y')  
+>Five difficulty level defined (easy1, easy2, medium1, medium2, hard) refer constants.py  
+>Learning is started with *easy1* level. After correct answer level is increased and for incorrect level is decreased within bounds.  
 >Confidence is calculated for each correct answer (marks associated with difficulty level, refer constants.py)
 
 ## Scaling
->Can easily be extended to 20, 30 ...any number multiplication tables by just altering constants.py
+>Can easily be extended to 20, 30 ...any number multiplication tables by just altering constants.py  
 >Difficulty level can easily be modified by just altering constants.py
 
 ## Enhancements
->Logging can easily be extended to broker-consumer streaming model
->At scale question generator can easily be replaced with microservice
+>Logging can easily be extended to broker-consumer streaming model  
+>At scale question generator can easily be replaced with microservice  
 >At start of test difficulty level can be memoized of derived from last user interaction, etc.
 
 ## Running Program
